@@ -1,0 +1,29 @@
+{
+  "name": "halal-mui",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "author": {
+    "name": "Jabir Developer",
+    "email": "cs.jabirdev@gmail.com",
+    "url": "https://youtube.com/@JabirDeveloper/"
+  },
+  "keywords": [
+    "halal mui", "produk halal", "halal product"
+  ],
+  "engines": {
+    "node": "16.16.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.2.5",
+    "cheerio": "^1.0.0-rc.12",
+    "cookie-parser": "latest",
+    "cors": "^2.8.5",
+    "debug": "latest",
+    "express": "latest",
+    "morgan": "latest"
+  }
+}
