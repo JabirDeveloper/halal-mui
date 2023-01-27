@@ -4,7 +4,7 @@
 
 # Endopint
 
-[http://localhost:3000/v1/](http://localhost:3000/v1/ "Endpoint Halal MUI")
+[https://halal-mui.vercel.app/v1/](https://halal-mui.vercel.app//v1/ "Endpoint Halal MUI")
 
 ## Cari Produk
 
