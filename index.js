@@ -4,8 +4,8 @@ const cookieParser = require('cookie-parser')
 const logger = require('morgan')
 const cors = require('cors')
 
-const indexRouter = require('../routes/index')
-const halalRouter = require('../routes/v1')
+const indexRouter = require('./routes/index')
+const halalRouter = require('./routes/v1')
 
 const app = express()
 
