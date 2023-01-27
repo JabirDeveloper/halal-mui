@@ -1,7 +1,17 @@
 {
     "version": 2,
-    "builds": [
-        { "src": "*.js", "use": "@now/node" },
-        { "src": "./pubic/**", "use": "@now/node" }
-    ]
+    "functions": {
+        "./public/**": {
+          "memory": 3008,
+          "maxDuration": 30
+        },
+        "./routes/**": {
+            "memory": 3008,
+            "maxDuration": 30
+          },
+        "./*.js": {
+          "memory": 3008,
+          "maxDuration": 30
+        }
+    }
 }
