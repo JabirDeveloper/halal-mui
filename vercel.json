@@ -6,7 +6,7 @@
          "use": "@vercel/node"
      },
      {
-        "src": "/(.*)",
+        "src": "./public/README.md",
         "use": "@vercel/static"
     }
     ],
