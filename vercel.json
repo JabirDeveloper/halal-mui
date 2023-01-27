@@ -1,15 +1,15 @@
 {
     "version": 2,
     "functions": {
-        "./public/**": {
+        "api/public/**": {
           "memory": 3008,
           "maxDuration": 30
         },
-        "./routes/**": {
+        "api/routes/**": {
             "memory": 3008,
             "maxDuration": 30
           },
-        "./*.js": {
+        "api/*.js": {
           "memory": 3008,
           "maxDuration": 30
         }
