@@ -1,6 +1,6 @@
 # Halal MUI API
 
-> API untuk mencari produk yang terdaftar di MUI
+> API gratis untuk mencari produk yang terdaftar di MUI
 
 # Endopint
 
