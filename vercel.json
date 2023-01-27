@@ -1,10 +1,13 @@
 {
     "version": 2,
     "functions": {
-        "api/public/**": {
+        "api/public/**/*.html": {
           "maxDuration": 30
         },
-        "api/routes/**": {
+        "api/public/**/*.md": {
+            "maxDuration": 30
+          },
+        "api/routes/**/*.js": {
             "maxDuration": 30
           },
         "api/*.js": {
