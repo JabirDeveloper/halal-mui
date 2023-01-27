@@ -1,9 +1,6 @@
 {
     "version": 2,
     "functions": {
-        "api/public/**/*.html": {
-          "maxDuration": 30
-        },
         "api/public/**/*.md": {
             "maxDuration": 30
           },
