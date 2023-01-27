@@ -1,10 +1,6 @@
 {
     "version": 2,
-    "builds": [
-        { "src": "./*.html", "use": "@vercel/static" },
-        { "src": "./*.md", "use": "@vercel/static" },
-        { "src": "./*.js", "use": "@vercel/node" }
-    ],
+    "buildCommand": "next build",
     "routes": [
      {
          "src": "/(.*)",
