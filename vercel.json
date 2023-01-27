@@ -1,4 +1,7 @@
 {
     "version": 2,
-    "builds": [{ "src": "*.js", "use": "@now/node" }]
-    }
+    "builds": [
+        { "src": "*.js", "use": "@now/node" },
+        { "src": "./pubic/**", "use": "@now/node" }
+    ]
+}
