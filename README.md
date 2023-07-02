@@ -2,7 +2,7 @@
 
 > API gratis untuk mencari produk yang terdaftar di MUI
 
-# Endopint
+# Endpoint
 
 [https://halal-mui.vercel.app/v1/](https://halal-mui.vercel.app//v1/ "Endpoint Halal MUI")
 
